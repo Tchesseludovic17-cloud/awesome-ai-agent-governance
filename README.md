@@ -128,6 +128,8 @@ A governed agent runs with least-privilege tool access, an immutable audit trail
 
 ---
 
+- [InGravity](https://github.com/Tchesseludovic17-cloud/ingravity) - Open-source governance and safety layer for AI agents that evaluates proposed actions against deterministic policies, records decisions, supports human approval workflows, and exposes an MCP gateway.
+
 ## Free Governance Tools
 
 Interactive tools that answer common governance questions without a signup. Each is also callable by AI agents over HTTP (`POST /api/v1/tools/{tool}/run` with an `X-Agent-Id` header), so the same check an engineer runs in a browser runs in CI or inside a coding agent.
